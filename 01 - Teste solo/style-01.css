@@ -1,0 +1,127 @@
+.footer {
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Box2 */
+.box-elemento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 25px;
+}
+.elemento {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  background-color: #fff;
+  padding: 20px 20px 15px 20px;
+}
+.frist-elemento {
+  display: grid;
+  padding: 40px 20px 15px 20px;
+  grid-template-columns: 1fr 4fr;
+  background-color: #fff;
+}
+.card {
+  font-family: arial;
+  font-size: 18px;
+  grid-column: 2;
+  place-items: start start;
+}
+.last-card {
+  font-family: arial;
+  font-size: 18px;
+  grid-column: 2;
+  place-items: start start;
+  padding-bottom: 40px;
+}
+.icone {
+  place-self: center center;
+  padding: 15px;
+}
+/* Box 1 */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  place-content: center;
+  margin-bottom: 50px;
+}
+.logo {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+.fix {
+  background-color: #ee2211;
+  height: 5px;
+  width: 65px;
+  position: relative;
+  grid-area: 1/1;
+  justify-self: end;
+  left: 60px;
+  top: 40px;
+}
+.titulo {
+  margin-top: 60px;
+  font-size: 32px;
+  font-weight: bold;
+  grid-area: 1/1;
+  margin-left: 50px;
+  text-align: right;
+}
+.descricao {
+  font-size: 20px;
+  text-align: right;
+  margin-left: 50px;
+  grid-row: 2;
+}
+.btn {
+  font-size: 20px;
+  background-color: #ee2211;
+  padding: 10px 15px;
+  border-radius: 4px;
+  color: #fff;
+  grid-area: 3/1;
+  place-self: start end;
+  margin-bottom: 50px;
+}
+
+.box {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3;
+  place-items: start end;
+  column-gap: 25px;
+}
+
+.foto {
+  grid-row: 1/4;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* base */
+body {
+  background-color: #f7f7f7;
+  font-family: arial;
+  font-style: normal;
+  margin: 0 100px;
+}
+span {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+}
+h2 {
+  color: #c6c6c6;
+  background-color: #f7f7f7;
+  text-align: right;
+  font-size: 45px;
+  display: grid;
+  grid-row: 1/4;
+  align-items: center;
+}
