@@ -1,2 +1,3 @@
 # 01 - Exercício de posicionamento
-Projetos desenvolvidos durante meu curso de HTML e CSS para iniciantes da origamid.
+Este projeto trata de um exercício do curso HTML e CSS para iniciantes da ORIGAMID onde aplico os ensinamentos das primeiras 3 unidades do curso: 01 HTML e CSS para Iniciantes/02 HTML e CSS Básico/03 CSS Posicionamento.
+Aplico nesses exercícios HTML e CSS com grid e flexbox.
